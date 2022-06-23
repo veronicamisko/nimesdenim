@@ -264,3 +264,55 @@ a {
     align-items: center;
     padding-bottom: 155px;
 }
+
+.card {
+    background-image: linear-gradient(to right, #ffffff 50%, #f1f2f4 50%);
+    margin-top: 50px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+
+    /* Временно для сетки */
+    min-height: 690px;
+}
+
+.card-photos-column {
+    width: 600px;
+    background-color: #ffffff;
+}
+
+.card-description-column {
+    width: 570px;
+    color: #151c22;
+}
+
+.card-photo-full {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    /* Временно для сетки */
+    width: 400px;
+    min-height: 525px;
+}
+
+.card-photo-preview {
+    display: flex;
+    justify-content: flex-start;
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.card-photo-preview-item {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.similar {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
