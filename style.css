@@ -229,3 +229,38 @@ a {
 .social-item {
     padding: 20px 15px;
 }
+
+.catalog-header-wrapper {
+    border-color: #f1f2f4;
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
+
+.breadcrumbs {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.breadcrumbs-item {
+    margin-right: 30px;
+}
+
+.catalog-list-compact {
+    margin-right: -66px;
+}
+
+.catalog-item-compact {
+    width: 243px;
+    margin-bottom: 52px;
+    margin-right: 66px;
+}
+
+.catalog-slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 155px;
+}
